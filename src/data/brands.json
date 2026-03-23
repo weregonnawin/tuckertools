@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Milwaukee",
+    "slug": "milwaukee",
+    "color": "#DB0032",
+    "logo": "https://www.milwaukeetool.com/img/Foundation/Theming/MilwaukeeTool/global/mke-logo-og.png",
+    "tagline": "Nothing But Heavy Duty",
+    "description": "Milwaukee Tool is an industry-leading manufacturer of heavy-duty power tools, accessories, and hand tools for professional users. Known for the M18 and M12 cordless systems, Milwaukee delivers best-in-class durability and performance on the jobsite."
+  },
+  {
+    "name": "DeWalt",
+    "slug": "dewalt",
+    "color": "#FEBD17",
+    "logo": "https://bynder.sbdinc.com/m/6b2e16c03bf39e28/webimage-DEWALT_Logo_2018_Black_Yellow-EN_LGO1.png",
+    "tagline": "Guaranteed Tough",
+    "description": "DeWalt is a leading manufacturer of industrial power tools, anchored by the 20V MAX and FLEXVOLT systems. Trusted by professionals worldwide, DeWalt tools are engineered for maximum performance and durability in the most demanding work environments."
+  },
+  {
+    "name": "Makita",
+    "slug": "makita",
+    "color": "#00A3A1",
+    "logo": "https://makitatools.com/Content/Images/Global/Header/makita-logo.gif",
+    "tagline": "Rule the Outdoors",
+    "description": "Makita is a global leader in cordless technology, pioneering the 18V LXT and 40V XGT lithium-ion systems. With over 100 years of innovation, Makita delivers professional-grade power tools known for precision engineering and exceptional runtime."
+  },
+  {
+    "name": "Ryobi",
+    "slug": "ryobi",
+    "color": "#78BE20",
+    "logo": "https://cdn.shopify.com/s/files/1/0651/3668/9323/files/Ryobi_Logo.svg",
+    "tagline": "The DIY Brand That Pros Respect",
+    "description": "Ryobi is the go-to brand for homeowners and DIY enthusiasts, offering over 300 tools on the 18V ONE+ battery platform. With innovative features and unbeatable value, Ryobi makes quality power tools accessible to everyone."
+  },
+  {
+    "name": "Bosch",
+    "slug": "bosch",
+    "color": "#005691",
+    "logo": "https://www.boschtools.com/us/media/professional_bi/bosch_logo_res_340x340.png",
+    "tagline": "Invented for Life",
+    "description": "Bosch Power Tools is a global leader in engineering precision, offering professional-grade drills, saws, grinders, and measuring tools. Known for German engineering excellence, Bosch tools deliver accuracy, reliability, and innovation across every trade."
+  },
+  {
+    "name": "CRAFTSMAN",
+    "slug": "craftsman",
+    "color": "#CC0000",
+    "logo": "https://bynder.sbdinc.com/m/35d57f1a236dd53c/original/CM_Favicon-logo-144x144-EN_LSL1.png",
+    "tagline": "Build On",
+    "description": "CRAFTSMAN is an iconic American tool brand trusted for generations. The V20 cordless system delivers reliable power for home improvement, woodworking, and general maintenance, making it the perfect choice for homeowners and serious DIYers."
+  },
+  {
+    "name": "Ridgid",
+    "slug": "ridgid",
+    "color": "#F26522",
+    "logo": "https://cdn2.ridgid.com/Themes/RIDGID.OneEmerson/Content/favicon-32x32.png",
+    "tagline": "Built to Last. Tested to Prove It.",
+    "description": "Ridgid offers professional-grade 18V cordless power tools backed by the industry-leading Lifetime Service Agreement. Built for tradespeople who demand tools that perform in the toughest jobsite conditions day after day."
+  },
+  {
+    "name": "Metabo HPT",
+    "slug": "metabo-hpt",
+    "color": "#00A651",
+    "logo": "https://www.metabo-hpt.com/images/default-source/default-album/metabo-hpt-logo.png",
+    "tagline": "We Engineer Power",
+    "description": "Metabo HPT (formerly Hitachi Power Tools) offers the innovative MultiVolt system that works with both 18V and 36V batteries. Engineered for professional contractors, Metabo HPT tools deliver corded power performance in a cordless platform."
+  },
+  {
+    "name": "BLACK+DECKER",
+    "slug": "black-decker",
+    "color": "#F68B1F",
+    "logo": "https://bynder.sbdinc.com/m/5de6dd86e4a0d283/webimage-BD_Logo_2019_Orange-EN_LGO1.png",
+    "tagline": "Make Something",
+    "description": "BLACK+DECKER is the trusted brand for home projects, offering affordable and easy-to-use 20V MAX power tools. From first-time homeowners to weekend warriors, BLACK+DECKER makes DIY projects simple with lightweight, user-friendly designs."
+  },
+  {
+    "name": "Kobalt",
+    "slug": "kobalt",
+    "color": "#0072CE",
+    "logo": "https://mobileimages.lowes.com/marketingimages/59b78e86-5e01-485e-ad46-fa95dd0b612b/kobalt-logo.png",
+    "tagline": "Quality That Works",
+    "description": "Kobalt is Lowe's exclusive brand of professional-quality power tools, anchored by the 24V MAX brushless cordless platform. Offering strong performance at competitive prices, Kobalt tools are backed by hassle-free warranties and proven reliability."
+  }
+]

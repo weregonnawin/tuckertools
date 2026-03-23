@@ -39,11 +39,12 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center pt-20">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-8 border border-brand-yellow/30 bg-brand-yellow/5">
-          <span className="w-2 h-2 bg-brand-yellow rounded-full animate-pulse" />
-          <span className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-yellow">
-            Authorized Dealer &mdash; Top Brands
-          </span>
+        <div className="inline-block mb-8">
+          <div className="border-t border-b border-brand-yellow/40 px-6 py-1.5">
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-brand-yellow/80">
+              Authorized Dealer &bull; Est. 2024
+            </span>
+          </div>
         </div>
 
         {/* Headline */}

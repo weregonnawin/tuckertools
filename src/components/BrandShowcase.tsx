@@ -1,19 +1,8 @@
 "use client";
 
 import Link from "next/link";
-
-const brands = [
-  { name: "Milwaukee", slug: "milwaukee", color: "#DB021D" },
-  { name: "DeWalt", slug: "dewalt", color: "#FEBD17" },
-  { name: "Makita", slug: "makita", color: "#00A6A0" },
-  { name: "Ryobi", slug: "ryobi", color: "#8DC63F" },
-  { name: "Bosch", slug: "bosch", color: "#005DAA" },
-  { name: "CRAFTSMAN", slug: "craftsman", color: "#CC0000" },
-  { name: "Ridgid", slug: "ridgid", color: "#FF6600" },
-  { name: "Metabo HPT", slug: "metabo-hpt", color: "#00A651" },
-  { name: "BLACK+DECKER", slug: "black-decker", color: "#F7941D" },
-  { name: "Kobalt", slug: "kobalt", color: "#003DA5" },
-] as const;
+import Image from "next/image";
+import brandsData from "@/data/brands.json";
 
 export default function BrandShowcase() {
   return (
@@ -29,7 +18,7 @@ export default function BrandShowcase() {
 
         {/* Brand Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5">
-          {brands.map((brand) => (
+          {brandsData.map((brand) => (
             <Link
               key={brand.slug}
               href={`/brands/${brand.slug}`}
@@ -47,7 +36,17 @@ export default function BrandShowcase() {
               />
 
               {/* Card Body */}
-              <div className="flex flex-col items-center justify-center flex-1 px-4 py-10">
+              <div className="flex flex-col items-center justify-center flex-1 px-4 py-8 gap-3">
+                <div className="w-full h-16 flex items-center justify-center bg-white/90 rounded px-3">
+                  <Image
+                    src={brand.logo}
+                    alt={`${brand.name} logo`}
+                    width={120}
+                    height={48}
+                    className="object-contain max-h-12"
+                    unoptimized
+                  />
+                </div>
                 <span className="text-lg sm:text-xl font-bold text-white text-center leading-tight tracking-wide">
                   {brand.name}
                 </span>
