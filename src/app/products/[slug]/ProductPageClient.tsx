@@ -62,7 +62,7 @@ function ProductImage({
           alt={alt}
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
-          className="object-contain p-6"
+          className="object-contain p-8"
           unoptimized
           onError={() => setImgError(true)}
         />
@@ -127,7 +127,7 @@ export default function ProductPageClient({
           {/* Product Detail */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 mb-20">
             {/* Image */}
-            <div className="rounded-xl overflow-hidden bg-brand-charcoal border border-neutral-700/50">
+            <div className="rounded-xl overflow-hidden bg-white border border-neutral-700/50">
               <ProductImage
                 src={product.image}
                 alt={product.name}
@@ -202,7 +202,7 @@ export default function ProductPageClient({
               {/* CTA */}
               <div className="mt-4 flex flex-col sm:flex-row gap-4">
                 <a
-                  href="#contact"
+                  href="/#contact"
                   className="flex-1 inline-flex items-center justify-center gap-3 px-8 py-4 bg-brand-yellow hover:bg-brand-yellow-dark text-brand-black font-bold text-base uppercase tracking-wider transition-all duration-200 rounded-lg"
                 >
                   <svg viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
@@ -247,7 +247,7 @@ export default function ProductPageClient({
                                transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_6px_24px_rgba(250,204,21,0.12)]
                                hover:border-yellow-400/30"
                   >
-                    <div className="relative w-full aspect-square bg-neutral-800 overflow-hidden">
+                    <div className="relative w-full aspect-square bg-white overflow-hidden">
                       <ProductImage
                         src={rp.image}
                         alt={rp.name}

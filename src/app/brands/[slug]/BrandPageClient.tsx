@@ -45,7 +45,7 @@ function ProductCard({
                  hover:border-yellow-400/30"
     >
       {/* Image */}
-      <div className="relative w-full aspect-square bg-neutral-800 overflow-hidden">
+      <div className="relative w-full aspect-square bg-white overflow-hidden">
         {imgError ? (
           <div
             className="w-full h-full flex items-center justify-center text-5xl font-black text-white/80"

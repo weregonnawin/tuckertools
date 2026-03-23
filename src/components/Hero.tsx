@@ -1,7 +1,22 @@
 export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-brand-black">
-      {/* Industrial grid pattern - CSS only */}
+      {/* Video background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+        poster=""
+      >
+        <source src="/hero-video.mp4" type="video/mp4" />
+      </video>
+
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-brand-black/70" />
+
+      {/* Industrial grid pattern - CSS only (fallback if video fails) */}
       <div
         className="absolute inset-0"
         style={{
