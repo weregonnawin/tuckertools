@@ -38,23 +38,30 @@ export default function Header() {
             <div className="relative">
               <svg
                 viewBox="0 0 32 32"
-                fill="none"
+                fill="currentColor"
                 className="w-8 h-8 sm:w-9 sm:h-9 text-brand-yellow transition-transform duration-300 group-hover:rotate-[15deg]"
                 aria-hidden="true"
               >
-                {/* Wrench icon */}
-                <path
-                  d="M25.5 6.5a7 7 0 0 0-9.4.9L12 11.5l-3-3-1.5 1.5L10 12.5l-5.5 5.5a3 3 0 0 0 0 4.2l1.3 1.3a3 3 0 0 0 4.2 0L15.5 18l2.5 2.5 1.5-1.5-2.5-2.5 4.1-4.1a7 7 0 0 0 .9-9.4l-3.5 3.5-2.5-2.5 3.5-3.5Z"
-                  fill="currentColor"
-                />
-                {/* Gear teeth */}
-                <path
-                  d="M27 14.5V17h-2.2a7.1 7.1 0 0 1-.8 1.9l1.6 1.6-1.8 1.8-1.6-1.6a7.1 7.1 0 0 1-1.9.8V24h-2.5v-2.5a7.1 7.1 0 0 1-1.9-.8l-1.6 1.6-1.8-1.8 1.6-1.6"
-                  stroke="currentColor"
-                  strokeWidth="1.2"
-                  fill="none"
-                  opacity="0.35"
-                />
+                {/* Power drill / impact driver silhouette */}
+                {/* Chuck / bit tip */}
+                <rect x="1" y="12" width="5" height="4" rx="0.5" />
+                {/* Chuck collar */}
+                <rect x="5" y="11" width="3" height="6" rx="0.5" />
+                {/* Main drill body */}
+                <rect x="8" y="10" width="13" height="8" rx="1.5" />
+                {/* Top vent detail */}
+                <rect x="10" y="10" width="9" height="2" rx="0.5" opacity="0.5" />
+                {/* Trigger */}
+                <path d="M16 18 L15 24 L18 24 L19 18 Z" />
+                {/* Handle body */}
+                <rect x="13" y="18" width="8" height="8" rx="2" />
+                {/* Battery pack */}
+                <rect x="12" y="26" width="10" height="4" rx="1.5" />
+                {/* Battery terminal nubs */}
+                <rect x="14" y="25" width="2" height="2" rx="0.5" />
+                <rect x="18" y="25" width="2" height="2" rx="0.5" />
+                {/* Speed selector ring on body */}
+                <rect x="19" y="12" width="2" height="4" rx="1" opacity="0.6" />
               </svg>
             </div>
             <div className="flex flex-col leading-none">

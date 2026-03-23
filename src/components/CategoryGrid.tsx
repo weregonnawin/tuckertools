@@ -1,6 +1,9 @@
+import Link from "next/link";
+
 const categories = [
   {
     name: "Drills & Drivers",
+    slug: "drills-drivers",
     count: "120+ Products",
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-10 h-10" stroke="currentColor" strokeWidth={2.5}>
@@ -14,6 +17,7 @@ const categories = [
   },
   {
     name: "Saws",
+    slug: "saws",
     subtitle: "Circular, Miter, Reciprocating",
     count: "95+ Products",
     icon: (
@@ -35,6 +39,7 @@ const categories = [
   },
   {
     name: "Impact Wrenches & Drivers",
+    slug: "impact-wrenches-drivers",
     count: "80+ Products",
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-10 h-10" stroke="currentColor" strokeWidth={2.5}>
@@ -48,6 +53,7 @@ const categories = [
   },
   {
     name: "Grinders & Sanders",
+    slug: "grinders-sanders",
     count: "70+ Products",
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-10 h-10" stroke="currentColor" strokeWidth={2.5}>
@@ -61,6 +67,7 @@ const categories = [
   },
   {
     name: "Outdoor Power Equipment",
+    slug: "outdoor-power-equipment",
     count: "60+ Products",
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-10 h-10" stroke="currentColor" strokeWidth={2.5}>
@@ -75,6 +82,7 @@ const categories = [
   },
   {
     name: "Combo Kits & Sets",
+    slug: "combo-kits-sets",
     count: "45+ Products",
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-10 h-10" stroke="currentColor" strokeWidth={2.5}>
@@ -104,9 +112,9 @@ export default function CategoryGrid() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {categories.map((cat) => (
-            <a
+            <Link
               key={cat.name}
-              href="#"
+              href={`/categories/${cat.slug}`}
               className="group relative bg-[#2d2d2d] border-l-4 border-[#f59e0b] rounded-sm p-6 flex items-start gap-5 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(245,158,11,0.15)] hover:bg-[#333333]"
             >
               <div className="shrink-0 text-[#f59e0b] group-hover:scale-110 transition-transform duration-200">
@@ -123,7 +131,7 @@ export default function CategoryGrid() {
                   {cat.count}
                 </p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

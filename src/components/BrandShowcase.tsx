@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import brandsData from "@/data/brands.json";
 
 export default function BrandShowcase() {
@@ -37,14 +36,12 @@ export default function BrandShowcase() {
 
               {/* Card Body */}
               <div className="flex flex-col items-center justify-center flex-1 px-4 py-8 gap-3">
-                <div className="w-full h-16 flex items-center justify-center bg-white/90 rounded px-3">
-                  <Image
+                <div className="w-full h-20 flex items-center justify-center rounded overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
                     src={brand.logo}
                     alt={`${brand.name} logo`}
-                    width={120}
-                    height={48}
-                    className="object-contain max-h-12"
-                    unoptimized
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 <span className="text-lg sm:text-xl font-bold text-white text-center leading-tight tracking-wide">

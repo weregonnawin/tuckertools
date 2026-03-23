@@ -257,10 +257,10 @@ export default function ContactForm() {
                       Email
                     </p>
                     <a
-                      href="mailto:info@tuckertools.com"
+                      href="mailto:support@tuckertools.com"
                       className="text-white hover:text-amber-500 transition-colors"
                     >
-                      info@tuckertools.com
+                      support@tuckertools.com
                     </a>
                   </div>
                 </div>

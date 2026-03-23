@@ -20,9 +20,9 @@ const companyLinks = [
   { label: "About Us", href: "#about" },
   { label: "Contact", href: "#contact" },
   { label: "Request a Quote", href: "#contact" },
-  { label: "Shipping Policy", href: "#" },
-  { label: "Returns", href: "#" },
-  { label: "Privacy Policy", href: "#" },
+  { label: "Shipping Policy", href: "/shipping" },
+  { label: "Returns", href: "/returns" },
+  { label: "Privacy Policy", href: "/privacy" },
 ];
 
 export default function Footer() {
@@ -38,14 +38,30 @@ export default function Footer() {
             <a href="#" className="inline-flex items-center gap-2.5 mb-5">
               <svg
                 viewBox="0 0 32 32"
-                fill="none"
+                fill="currentColor"
                 className="w-8 h-8 text-brand-yellow"
                 aria-hidden="true"
               >
-                <path
-                  d="M25.5 6.5a7 7 0 0 0-9.4.9L12 11.5l-3-3-1.5 1.5L10 12.5l-5.5 5.5a3 3 0 0 0 0 4.2l1.3 1.3a3 3 0 0 0 4.2 0L15.5 18l2.5 2.5 1.5-1.5-2.5-2.5 4.1-4.1a7 7 0 0 0 .9-9.4l-3.5 3.5-2.5-2.5 3.5-3.5Z"
-                  fill="currentColor"
-                />
+                {/* Power drill / impact driver silhouette */}
+                {/* Chuck / bit tip */}
+                <rect x="1" y="12" width="5" height="4" rx="0.5" />
+                {/* Chuck collar */}
+                <rect x="5" y="11" width="3" height="6" rx="0.5" />
+                {/* Main drill body */}
+                <rect x="8" y="10" width="13" height="8" rx="1.5" />
+                {/* Top vent detail */}
+                <rect x="10" y="10" width="9" height="2" rx="0.5" opacity="0.5" />
+                {/* Trigger */}
+                <path d="M16 18 L15 24 L18 24 L19 18 Z" />
+                {/* Handle body */}
+                <rect x="13" y="18" width="8" height="8" rx="2" />
+                {/* Battery pack */}
+                <rect x="12" y="26" width="10" height="4" rx="1.5" />
+                {/* Battery terminal nubs */}
+                <rect x="14" y="25" width="2" height="2" rx="0.5" />
+                <rect x="18" y="25" width="2" height="2" rx="0.5" />
+                {/* Speed selector ring on body */}
+                <rect x="19" y="12" width="2" height="4" rx="1" opacity="0.6" />
               </svg>
               <div className="flex flex-col leading-none">
                 <span className="text-lg font-black tracking-wider text-white uppercase">
@@ -65,14 +81,14 @@ export default function Footer() {
             {/* Contact info */}
             <div className="space-y-3 mb-6">
               <a
-                href="mailto:info@tuckertools.com"
+                href="mailto:support@tuckertools.com"
                 className="flex items-center gap-3 text-sm text-gray-400 hover:text-brand-yellow transition-colors"
               >
                 <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-brand-yellow/60 flex-shrink-0" aria-hidden="true">
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                info@tuckertools.com
+                support@tuckertools.com
               </a>
               <a
                 href="tel:+18005551234"
@@ -199,14 +215,14 @@ export default function Footer() {
             &copy; 2026 Tucker Tools. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-xs text-gray-500">
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <a href="/terms" className="hover:text-gray-300 transition-colors">
               Terms of Service
             </a>
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <a href="/privacy" className="hover:text-gray-300 transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-gray-300 transition-colors">
-              Sitemap
+            <a href="/shipping" className="hover:text-gray-300 transition-colors">
+              Shipping
             </a>
           </div>
         </div>

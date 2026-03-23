@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100">
+  <rect width="240" height="100" rx="4" fill="#00A651"/>
+  <text x="120" y="56" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="28" fill="white" text-anchor="middle" letter-spacing="2">METABO</text>
+  <text x="120" y="84" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="28" fill="white" text-anchor="middle" letter-spacing="2">HPT</text>
+</svg>
