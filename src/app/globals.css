@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #f5f5f5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.texture-overlay {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(255,255,255,0.015) 2px,
+      rgba(255,255,255,0.015) 4px
+    );
+}
+
+.hazard-stripes {
+  background: repeating-linear-gradient(
+    -45deg,
+    #f59e0b,
+    #f59e0b 10px,
+    #0a0a0a 10px,
+    #0a0a0a 20px
+  );
+}
+
+.btn-industrial {
+  @apply relative overflow-hidden transition-all duration-200;
+}
+
+.btn-industrial::before {
+  content: '';
+  @apply absolute inset-0 opacity-0 transition-opacity duration-200;
+  background: linear-gradient(135deg, rgba(245,158,11,0.2), transparent);
+}
+
+.btn-industrial:hover::before {
+  @apply opacity-100;
+}
+
+.section-divider {
+  height: 4px;
+  background: linear-gradient(90deg, #f59e0b, #ea580c, #dc2626);
+}
+
+.brand-card {
+  @apply transition-all duration-300;
+}
+
+.brand-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(245, 158, 11, 0.15);
+}
+
+.form-input:focus {
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.4);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b;
+}
