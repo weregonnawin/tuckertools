@@ -3,11 +3,11 @@
 import { useState, useEffect } from "react";
 
 const navLinks = [
-  { label: "Home", href: "#" },
-  { label: "Brands", href: "#brands" },
-  { label: "Categories", href: "#categories" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "Brands", href: "/brands" },
+  { label: "Categories", href: "/categories" },
+  { label: "About", href: "/#about" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Header() {
@@ -34,7 +34,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2.5 group">
+          <a href="/" className="flex items-center gap-2.5 group">
             <div className="relative">
               <svg
                 viewBox="0 0 32 32"

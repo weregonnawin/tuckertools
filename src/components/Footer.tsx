@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
           {/* Brand column */}
           <div className="lg:col-span-2">
-            <a href="#" className="inline-flex items-center gap-2.5 mb-5">
+            <a href="/" className="inline-flex items-center gap-2.5 mb-5">
               <svg
                 viewBox="0 0 32 32"
                 fill="currentColor"
