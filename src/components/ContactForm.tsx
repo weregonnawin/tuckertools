@@ -287,10 +287,10 @@ export default function ContactForm() {
                       Phone
                     </p>
                     <a
-                      href="tel:+15551234567"
+                      href="tel:+18005550199"
                       className="text-white hover:text-amber-500 transition-colors"
                     >
-                      (555) 123-4567
+                      (800) 555-0199
                     </a>
                   </div>
                 </div>

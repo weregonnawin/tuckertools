@@ -176,8 +176,8 @@ export default function TermsPage() {
                   support@tuckertools.com
                 </a>{" "}
                 or call{" "}
-                <a href="tel:+18005551234" className="text-brand-yellow hover:underline">
-                  1-800-555-1234
+                <a href="tel:+18005550199" className="text-brand-yellow hover:underline">
+                  (800) 555-0199
                 </a>.
               </p>
             </section>

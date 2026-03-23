@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#2d2d2d"/>
+
+  <!-- Tool silhouette: drill/driver shape -->
+  <g fill="#666666">
+    <!-- Body of drill -->
+    <rect x="120" y="150" width="140" height="55" rx="10"/>
+    <!-- Handle -->
+    <rect x="145" y="200" width="50" height="80" rx="10"/>
+    <!-- Chuck/bit nose -->
+    <rect x="255" y="163" width="35" height="28" rx="4"/>
+    <!-- Bit -->
+    <rect x="285" y="172" width="30" height="10" rx="3"/>
+    <!-- Battery pack -->
+    <rect x="148" y="275" width="44" height="20" rx="5"/>
+    <!-- Trigger -->
+    <ellipse cx="170" cy="210" rx="12" ry="14"/>
+  </g>
+
+  <!-- "Product Image" label -->
+  <text
+    x="200"
+    y="340"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    fill="#888888"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="1"
+  >Product Image</text>
+</svg>
