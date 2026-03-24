@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://tuckertools.com",
   },
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
